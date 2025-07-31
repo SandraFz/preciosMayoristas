@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Riñonera Flat",
+    "categoria": "riñonera",
+    "image": "assets/001-rinioFlat (2).png",
+    "imagenesAdicionales": [
+      "assets/001-rinioFlat (3).png",
+      "assets/001-rinioFlat (4).png",
+      "assets/001-rinioFlat (5).png",
+      "assets/001-rinioFlat (6).png"
+    ],
+    "descripcion": "Este modelo Flat tiene la misma calidad, artesanía y sustentabilidad que mis otros modelos pero con un detalle: el bolsillo integrado. Esta pequeña modificación me simplifica el proceso y ahorra valiosos minutos en desatado, corte y costura, el mayor de mis costos. Y así puedo ofrecerte esta preciosa opción pero un poco más económica.",
+    "pricePublico": 12000,
+    "priceConsignacion": 10000,
+    "priceMayorista" : 12
+  },
+  {
+    "id": 2,
+    "name": "Morral cruzado",
+    "categoria": "morral",
+    "image": "assets/006-morralCruz (2).jpg",
+    "imagenesAdicionales": [
+      "assets/006-morralCruz (3).jpg",
+      "assets/006-morralCruz (4).jpg",
+      "assets/006-morralCruz (5).jpg",
+      "assets/006-morralCruz (6).jpg"
+    ],
+    "descripcion": "Si estás todo el día ocupadx y moviéndote de un lado a otro, este morral de jeans es justo para vos. Te permite llevar lo esencial y un poco más dejando tus manos libres para sentirte cómodx. Con un diseño de moda que se adapta ya sea para hombre o mujer.",
+    "pricePublico": 8500,
+    "priceConsignacion": 7000
+  },
+  {
+    "id": 3,
+    "name": "Maxi Riñonera",
+    "categoria": "bolso",
+    "image": "assets/009-maxi-riñonera (1).jpg",
+    "imagenesAdicionales": [
+      "assets/009-maxi-riñonera (3).jpg",
+      "assets/009-maxi-riñonera (4).jpg",
+      "assets/009-maxi-riñonera (6).jpg",
+      "assets/009-maxi-riñonera (9).jpg"
+    ],
+    "descripcion": "Lo importante es que sea cómoda, por eso esta riñonera grande es amplia y tiene dos bolsillos al frente. Podés llevar tu billetera, tu teléfono, tu neceser, tus llaves, ¡todo! Ideal si vas en moto, bicicleta, transporte público, caminando, lo que sea...",
+    "pricePublico": 15000,
+    "priceConsignacion": 13000
+  },
+  {
+    "id": 2,
+    "name": "Morral cruzado",
+    "categoria": "morral",
+    "image": "assets/010-morralCruz (1).jpg",
+    "imagenesAdicionales": [
+    "assets/010-morralCruz (2).jpg",
+    "assets/010-morralCruz (3).jpg",
+    "assets/010-morralCruz (4).jpg",
+    "assets/010-morralCruz (5).jpg"
+    ],
+    "descripcion": "Si estás todo el día ocupadx y moviéndote de un lado a otro, este morral de jeans es justo para vos. Te permite llevar lo esencial y un poco más dejando tus manos libres para sentirte cómodx. Con un diseño de moda que se adapta ya sea para hombre o mujer.",
+    "pricePublico": 8500,
+    "priceConsignacion": 7000
+  },
+  {
+    "id": 3,
+    "name": "Maxi Riñonera",
+    "categoria": "bolso",
+    "image": "assets/010-maxi-riñonera (4).jpg",
+    "imagenesAdicionales": [
+      "assets/010-maxi-riñonera (2).jpg",
+      "assets/010-maxi-riñonera (3).jpg",
+      "assets/010-maxi-riñonera (4).jpg",
+      "assets/010-maxi-riñonera (5).jpg"
+    ],
+    "descripcion": "Lo importante es que sea cómoda, por eso esta riñonera grande es amplia y tiene dos bolsillos al frente. Podés llevar tu billetera, tu teléfono, tu neceser, tus llaves, ¡todo! Ideal si vas en moto, bicicleta, transporte público, caminando, lo que sea...",
+    "pricePublico": 15000,
+    "priceConsignacion": 13000
+  }
+]
+

@@ -1,0 +1,15 @@
+[
+{
+    "id": 2,
+    "name": "Cartera Sol",
+    "categoria": "carteras",
+    "image": "assets/producto2.jpg",
+    "imagenesAdicionales": [
+      "assets/producto2_1.jpg",
+      "assets/producto2_2.jpg"
+    ],
+    "descripcion": "Cartera compacta, ideal para salidas.",
+    "pricePublico": 8500,
+    "priceConsignacion": 7000
+  }
+]
