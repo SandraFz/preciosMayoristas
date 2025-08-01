@@ -8,6 +8,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Hind+Guntur:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <!--
+    <nav class="condiciones-menu">
+  <button onclick="abrirModal('minorista')">Minorista</button>
+  <button onclick="abrirModal('consignacion')">Consignación</button>
+  <button onclick="abrirModal('mayorista')">Mayorista</button>
+</nav>
+-->
+<nav class="condiciones-menu">
+  <button onclick="abrirModal('minorista')">Minorista</button>
+  <button onclick="abrirModal('consignacion')">Consignación</button>
+  <button onclick="abrirModal('mayorista')">Mayorista</button>
+</nav>
+
+<!-- Contenedor donde se insertarán los modales -->
+<div id="modales-container"></div>
+
+
+  </header>
   <h1>Catálogo de Productos</h1>
 
   <select id="categoryFilter">
@@ -19,6 +38,75 @@
 
   <div id="productList"></div>
 
+  <!--Modal de condiciones-->
+
+  <div id="modal-minorista" class="modal">
+  <div class="modal-content">
+    <span class="cerrar" onclick="cerrarModal('minorista')">&times;</span>
+    <h2>Condiciones Minorista</h2>
+    <p>Pago en efectivo o transferencia. Entrega inmediata. Sin mínimo de compra.</p>
+  </div>
+</div>
+
+<div id="modal-consignacion" class="modal">
+  <div class="modal-content">
+    <span class="cerrar" onclick="cerrarModal('consignacion')">&times;</span>
+    <h2>Condiciones Consignación</h2>
+    <p>Entrega en punto de venta. Liquidación mensual. Reposición según rotación.</p>
+  </div>
+</div>
+
+<div id="modal-mayorista" class="modal">
+  <div class="modal-content">
+    <span class="cerrar" onclick="cerrarModal('mayorista')">&times;</span>
+    <h2>Condiciones Mayorista</h2>
+    <p>Compra mínima de 10 unidades. 30% de descuento. Entrega programada.</p>
+  </div>
+</div>
+
   <script src="app.js"></script>
+
+  <!--Modales de condiciones de venta-->
+  <!--<script>
+    function abrirModal(tipo) {
+  document.getElementById(`modal-${tipo}`).style.display = 'block';
+}
+
+function cerrarModal(tipo) {
+  document.getElementById(`modal-${tipo}`).style.display = 'none';
+}
+
+  </script>-->
+
+  <script>
+fetch('condiciones.json')
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('modales-container');
+
+    Object.entries(data).forEach(([tipo, info]) => {
+      const modal = document.createElement('div');
+      modal.id = `modal-${tipo}`;
+      modal.className = 'modal';
+      modal.innerHTML = `
+        <div class="modal-content">
+          <span class="cerrar" onclick="cerrarModal('${tipo}')">&times;</span>
+          <h2>${info.titulo}</h2>
+          <p>${info.descripcion}</p>
+        </div>
+      `;
+      container.appendChild(modal);
+    });
+  });
+
+function abrirModal(tipo) {
+  document.getElementById(`modal-${tipo}`).style.display = 'block';
+}
+
+function cerrarModal(tipo) {
+  document.getElementById(`modal-${tipo}`).style.display = 'none';
+}
+</script>
+
 </body>
 </html>

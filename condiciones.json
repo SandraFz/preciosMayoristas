@@ -1,0 +1,14 @@
+{
+  "minorista": {
+    "titulo": "Condiciones Minorista",
+    "descripcion": "Precio sugerido para venta al público."
+  },
+  "consignacion": {
+    "titulo": "Condiciones Consignación",
+    "descripcion": "Oferta válida para vinculaciones de Conexión Comercial citos en la Ciudad de Formosa únicamente. 2 unidades para exhibición y venta. Rotación a convenir. Liquidación en caso de venta, 7 días corridos por medios a convenir."
+  },
+  "mayorista": {
+    "titulo": "Condiciones Mayorista",
+    "descripcion": "Oferta exclusiva para vinculaciones de Conexión Comercial. Compra mínima a convenir. 25% de descuento aproximado. Entrega programada. Liquidación contraentrega."
+  }
+}

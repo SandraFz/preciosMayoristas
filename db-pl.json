@@ -10,6 +10,7 @@
     ],
     "descripcion": "Cartera compacta, ideal para salidas.",
     "pricePublico": 8500,
-    "priceConsignacion": 7000
+    "priceConsignacion": 7000,
+    "priceMayorista" : 12
   }
 ]

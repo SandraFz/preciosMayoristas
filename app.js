@@ -14,7 +14,7 @@ if (document.location.pathname.includes('index.html')) {
           card.innerHTML = `
             <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
-            <p>$${product.pricePublico}</p>
+            <p>Precio sugerido $${product.pricePublico}</p>
           `;
           card.onclick = () => {
             localStorage.setItem('selectedProduct', JSON.stringify(product));
@@ -121,3 +121,5 @@ if (document.location.pathname.includes('detail.html')) {
     }
   };
 }
+
+

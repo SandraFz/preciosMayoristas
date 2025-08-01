@@ -10,70 +10,124 @@
       "assets/001-rinioFlat (5).png",
       "assets/001-rinioFlat (6).png"
     ],
-    "descripcion": "Este modelo Flat tiene la misma calidad, artesanía y sustentabilidad que mis otros modelos pero con un detalle: el bolsillo integrado. Esta pequeña modificación me simplifica el proceso y ahorra valiosos minutos en desatado, corte y costura, el mayor de mis costos. Y así puedo ofrecerte esta preciosa opción pero un poco más económica.",
-    "pricePublico": 12000,
-    "priceConsignacion": 10000,
-    "priceMayorista" : 12
+    "descripcion": "Tamaño 30 cm x 12 cm, correa 90 cm aprox., contorno total 127 cm aprox., cierre nylon común.",
+    "pricePublico": 30000,
+    "priceConsignacion": 25000,
+    "priceMayorista" : 23000
   },
   {
     "id": 2,
-    "name": "Morral cruzado",
-    "categoria": "morral",
-    "image": "assets/006-morralCruz (2).jpg",
+    "name": "Riñonera Flat",
+    "categoria": "riñonera",
+    "image": "assets/002-rinioFlat (3).png",
     "imagenesAdicionales": [
-      "assets/006-morralCruz (3).jpg",
-      "assets/006-morralCruz (4).jpg",
-      "assets/006-morralCruz (5).jpg",
-      "assets/006-morralCruz (6).jpg"
+      "assets/002-rinioFlat (4).png",
+      "assets/002-rinioFlat (5).png",
+      "assets/002-rinioFlat (6).png",
+      "assets/002-rinioFlat (7).png"
     ],
-    "descripcion": "Si estás todo el día ocupadx y moviéndote de un lado a otro, este morral de jeans es justo para vos. Te permite llevar lo esencial y un poco más dejando tus manos libres para sentirte cómodx. Con un diseño de moda que se adapta ya sea para hombre o mujer.",
-    "pricePublico": 8500,
-    "priceConsignacion": 7000
+    "descripcion": "Tamaño 30 cm x 12 cm, correa 90 cm aprox., contorno total 127 cm aprox., cierre nylon común.",
+    "pricePublico": 30000,
+    "priceConsignacion": 25000,
+    "priceMayorista" : 23000
   },
   {
     "id": 3,
-    "name": "Maxi Riñonera",
-    "categoria": "bolso",
-    "image": "assets/009-maxi-riñonera (1).jpg",
-    "imagenesAdicionales": [
-      "assets/009-maxi-riñonera (3).jpg",
-      "assets/009-maxi-riñonera (4).jpg",
-      "assets/009-maxi-riñonera (6).jpg",
-      "assets/009-maxi-riñonera (9).jpg"
-    ],
-    "descripcion": "Lo importante es que sea cómoda, por eso esta riñonera grande es amplia y tiene dos bolsillos al frente. Podés llevar tu billetera, tu teléfono, tu neceser, tus llaves, ¡todo! Ideal si vas en moto, bicicleta, transporte público, caminando, lo que sea...",
-    "pricePublico": 15000,
-    "priceConsignacion": 13000
-  },
-  {
-    "id": 2,
     "name": "Morral cruzado",
     "categoria": "morral",
-    "image": "assets/010-morralCruz (1).jpg",
+    "image": "assets/012-morralCruz-Exo (3).png",
     "imagenesAdicionales": [
-    "assets/010-morralCruz (2).jpg",
-    "assets/010-morralCruz (3).jpg",
-    "assets/010-morralCruz (4).jpg",
-    "assets/010-morralCruz (5).jpg"
+      "assets/010-morralCruz (1).png",
+      "assets/006-morralCruz (2).png",
+      "assets/007-morralCruz (2).png",
+      "assets/008-morralCruz (3).png",
+      "assets/009-morralCruz (2).png",
+      "assets/005-morralCruz-negro (1).png"
     ],
-    "descripcion": "Si estás todo el día ocupadx y moviéndote de un lado a otro, este morral de jeans es justo para vos. Te permite llevar lo esencial y un poco más dejando tus manos libres para sentirte cómodx. Con un diseño de moda que se adapta ya sea para hombre o mujer.",
-    "pricePublico": 8500,
-    "priceConsignacion": 7000
+    "descripcion": "Sin stock",
+    "pricePublico": 0,
+    "priceConsignacion": 0,
+    "priceMayorista" : 0
   },
   {
-    "id": 3,
-    "name": "Maxi Riñonera",
+    "id": 4,
+    "name": "Maxi Riñonera con dos bolsillos",
     "categoria": "bolso",
-    "image": "assets/010-maxi-riñonera (4).jpg",
+    "image": "assets/009-maxi-riñonera (1).png",
     "imagenesAdicionales": [
-      "assets/010-maxi-riñonera (2).jpg",
-      "assets/010-maxi-riñonera (3).jpg",
-      "assets/010-maxi-riñonera (4).jpg",
-      "assets/010-maxi-riñonera (5).jpg"
+      "assets/011-maxi-riñonera (3).png",
+      "assets/012-maxi-riñonera (7).png",
+      "assets/009-maxi-riñonera (6).png",
+      "assets/009-maxi-riñonera (3).png"
     ],
-    "descripcion": "Lo importante es que sea cómoda, por eso esta riñonera grande es amplia y tiene dos bolsillos al frente. Podés llevar tu billetera, tu teléfono, tu neceser, tus llaves, ¡todo! Ideal si vas en moto, bicicleta, transporte público, caminando, lo que sea...",
-    "pricePublico": 15000,
-    "priceConsignacion": 13000
+    "descripcion": "Sin stock",
+    "pricePublico": 66000,
+    "priceConsignacion": 54000,
+    "priceMayorista" : 49000
+  },
+  {
+    "id": 5,
+    "name": "Maxi Riñonera doble cierre simple",
+    "categoria": "bolso",
+    "image": "assets/Maxi-doble-cierre-simple1.png",
+    "imagenesAdicionales": [
+      "assets/Maxi-doble-cierre-simple2.png",
+      "assets/Maxi-doble-cierre-simple3.png",
+      "assets/Maxi-doble-cierre-simple4.png",
+      "assets/Maxi-doble-cierre-simple5.png"
+    ],
+    "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon reforzado.",
+    "pricePublico": 65000,
+    "priceConsignacion": 53000,
+    "priceMayorista" : 48000
+  },
+  {
+    "id": 6,
+    "name": "Maxi Riñonera patch 1",
+    "categoria": "bolso",
+    "image": "assets/maxi-patch-simple-1.png",
+    "imagenesAdicionales": [
+      "assets/maxi-patch-simple-1 (2).png",
+      "assets/maxi-patch-simple-1 (3).png",
+      "assets/maxi-patch-simple-1 (4).png",
+      "assets/maxi-patch-simple-1 (5).png"
+    ],
+    "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon reforzado.",
+    "pricePublico": 66000,
+    "priceConsignacion": 54000,
+    "priceMayorista" : 49000
+  },
+  {
+    "id": 7,
+    "name": "Maxi Riñonera patch 2",
+    "categoria": "bolso",
+    "image": "assets/maxi-patch-simple-2.png",
+    "imagenesAdicionales": [
+      "assets/maxi-patch-simple-2 (2).png",
+      "assets/maxi-patch-simple-2 (3).png",
+      "assets/maxi-patch-simple-2 (4).png",
+      "assets/maxi-patch-simple-2 (5).png"
+    ],
+    "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon reforzado, forro orgánico de lienzo crudo.",
+    "pricePublico": 66000,
+    "priceConsignacion": 54000,
+    "priceMayorista" : 49000
+  },
+  {
+    "id": 7,
+    "name": "Riñonera Táctica",
+    "categoria": "bolso",
+    "image": "assets/014-tactica (3).png",
+    "imagenesAdicionales": [
+      "assets/015-rinio-tactica (5).png",
+      "assets/017-rinio-tactica.png",
+      "assets/maxi-patch-simple-2 (4).png",
+      "assets/maxi-patch-simple-2 (5).png"
+    ],
+    "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon común, forro orgánico de lienzo crudo.",
+    "pricePublico": 48000,
+    "priceConsignacion": 40000,
+    "priceMayorista" : 37000
   }
 ]
 
