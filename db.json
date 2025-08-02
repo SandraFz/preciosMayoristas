@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Riñonera Flat",
     "categoria": "riñonera",
-    "image": "./assets/001-rinioFlat-_2_.webp",
+    "image": "assets/001-rinioFlat-_2_.webp",
     "imagenesAdicionales": [
       "assets/001-rinioFlat-_3_.webp",
       "assets/001-rinioFlat-_4_.webp",
