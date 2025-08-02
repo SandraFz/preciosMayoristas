@@ -1,6 +1,6 @@
 // index.html
 if (document.location.pathname.includes('index.html')) {
-  fetch('db.json')
+  fetch('https://raw.githubusercontent.com/SandraFz/preciosMayoristas/refs/heads/master/db.json')
     .then(res => res.json())
     .then(data => {
       const container = document.getElementById('productList');
