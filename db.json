@@ -3,17 +3,17 @@
     "id": 1,
     "name": "Riñonera Flat",
     "categoria": "riñonera",
-    "image": "assets/001-rinioFlat (2).png",
+    "image": "assets/001-rinioFlat-_2_.webp",
     "imagenesAdicionales": [
-      "assets/001-rinioFlat (3).png",
-      "assets/001-rinioFlat (4).png",
-      "assets/001-rinioFlat (5).png",
-      "assets/001-rinioFlat (6).png"
+      "assets/001-rinioFlat-_3_.webp",
+      "assets/001-rinioFlat-_4_.webp",
+      "assets/001-rinioFlat-_5_.webp",
+      "assets/001-rinioFlat-_6_.webp"
     ],
     "descripcion": "Tamaño 30 cm x 12 cm, correa 90 cm aprox., contorno total 127 cm aprox., cierre nylon común.",
-    "pricePublico": 30000,
-    "priceConsignacion": 25000,
-    "priceMayorista" : 23000
+    "pricePublico": 30.000,
+    "priceConsignacion": 25.000,
+    "priceMayorista" : 23.000
   },
   {
     "id": 2,
@@ -27,9 +27,9 @@
       "assets/002-rinioFlat (7).png"
     ],
     "descripcion": "Tamaño 30 cm x 12 cm, correa 90 cm aprox., contorno total 127 cm aprox., cierre nylon común.",
-    "pricePublico": 30000,
-    "priceConsignacion": 25000,
-    "priceMayorista" : 23000
+    "pricePublico": 30.000,
+    "priceConsignacion": 25.000,
+    "priceMayorista" : 23.000
   },
   {
     "id": 3,
@@ -51,7 +51,7 @@
   },
   {
     "id": 4,
-    "name": "Maxi Riñonera con dos bolsillos",
+    "name": "Maxi Riñonera dos bolsillos",
     "categoria": "bolso",
     "image": "assets/009-maxi-riñonera (1).png",
     "imagenesAdicionales": [
@@ -60,10 +60,10 @@
       "assets/009-maxi-riñonera (6).png",
       "assets/009-maxi-riñonera (3).png"
     ],
-    "descripcion": "Sin stock",
-    "pricePublico": 66000,
-    "priceConsignacion": 54000,
-    "priceMayorista" : 49000
+    "descripcion": "SIN STOCK. Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox..",
+    "pricePublico": 66.000,
+    "priceConsignacion": 54.000,
+    "priceMayorista" : 49.000  
   },
   {
     "id": 5,
@@ -77,9 +77,9 @@
       "assets/Maxi-doble-cierre-simple5.png"
     ],
     "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon reforzado.",
-    "pricePublico": 65000,
-    "priceConsignacion": 53000,
-    "priceMayorista" : 48000
+    "pricePublico": 65.000,
+    "priceConsignacion": 53.000,
+    "priceMayorista" : 48.000
   },
   {
     "id": 6,
@@ -93,9 +93,9 @@
       "assets/maxi-patch-simple-1 (5).png"
     ],
     "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon reforzado.",
-    "pricePublico": 66000,
-    "priceConsignacion": 54000,
-    "priceMayorista" : 49000
+    "pricePublico": 66.000,
+    "priceConsignacion": 54.000,
+    "priceMayorista" : 49.000
   },
   {
     "id": 7,
@@ -109,9 +109,9 @@
       "assets/maxi-patch-simple-2 (5).png"
     ],
     "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon reforzado, forro orgánico de lienzo crudo.",
-    "pricePublico": 66000,
-    "priceConsignacion": 54000,
-    "priceMayorista" : 49000
+    "pricePublico": 66.000,
+    "priceConsignacion": 54.000,
+    "priceMayorista" : 49.000
   },
   {
     "id": 7,
@@ -125,9 +125,9 @@
       "assets/maxi-patch-simple-2 (5).png"
     ],
     "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon común, forro orgánico de lienzo crudo.",
-    "pricePublico": 48000,
-    "priceConsignacion": 40000,
-    "priceMayorista" : 37000
+    "pricePublico": 48.000,
+    "priceConsignacion": 40.000,
+    "priceMayorista" : 37.000
   }
 ]
 
