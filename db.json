@@ -19,12 +19,12 @@
     "id": 2,
     "name": "Riñonera Flat",
     "categoria": "riñonera",
-    "image": "assets/002-rinioFlat (3).png",
+    "image": "assets/002-rinioFlat-_3_.webp",
     "imagenesAdicionales": [
-      "assets/002-rinioFlat (4).png",
-      "assets/002-rinioFlat (5).png",
-      "assets/002-rinioFlat (6).png",
-      "assets/002-rinioFlat (7).png"
+      "assets/002-rinioFlat-_4_.webp",
+      "assets/002-rinioFlat-_5_.webp",
+      "assets/002-rinioFlat-_6_.webp",
+      "assets/002-rinioFlat-_7_.webp"
     ],
     "descripcion": "Tamaño 30 cm x 12 cm, correa 90 cm aprox., contorno total 127 cm aprox., cierre nylon común.",
     "pricePublico": 30.000,
@@ -101,12 +101,13 @@
     "id": 7,
     "name": "Maxi Riñonera patch 2",
     "categoria": "bolso",
-    "image": "assets/maxi-patch-simple-2.png",
+    "image": "assets/maxi-patch-simple-2.webp",
     "imagenesAdicionales": [
-      "assets/maxi-patch-simple-2 (2).png",
-      "assets/maxi-patch-simple-2 (3).png",
-      "assets/maxi-patch-simple-2 (4).png",
-      "assets/maxi-patch-simple-2 (5).png"
+      "assets/maxi-patch-simple-2 (1).webp",
+      "assets/maxi-patch-simple-2 (2).webp",
+      "assets/maxi-patch-simple-2 (3).webp",
+      "assets/maxi-patch-simple-2 (4).webp",
+      "assets/maxi-patch-simple-2 (5).webp"
     ],
     "descripcion": "Tamaño 43 cm x 20 cm, correa 112 cm aprox., contorno total 157 cm aprox., cierre nylon reforzado, forro orgánico de lienzo crudo.",
     "pricePublico": 66.000,
