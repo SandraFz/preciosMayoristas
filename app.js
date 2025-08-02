@@ -1,41 +1,56 @@
 // index.html
-if (document.location.pathname.includes('index.html')) {
-  fetch('https://raw.githubusercontent.com/SandraFz/preciosMayoristas/main/db.json')
-    .then(res => res.json())
-    .then(data => {
-      const container = document.getElementById('productList');
-      const filter = document.getElementById('categoryFilter');
+document.addEventListener('DOMContentLoaded', () => {
+  // Asegurarse de que el script corre en index.html
+  if (location.pathname.endsWith('index.html') || location.pathname === '/' || location.pathname === '/preciosMayoristas/') {
+    
+    const container = document.getElementById('productList');
+    const filter = document.getElementById('categoryFilter');
 
-      function renderProducts(products) {
-        container.innerHTML = '';
-        products.forEach(product => {
-          const card = document.createElement('div');
-          card.className = 'product-card';
-          card.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
-            <h3>${product.name}</h3>
-            <p>Precio sugerido $${product.pricePublico}</p>
-          `;
-          card.onclick = () => {
-            localStorage.setItem('selectedProduct', JSON.stringify(product));
-            window.location.href = 'detail.html';
-          };
-          container.appendChild(card);
-        });
-      }
+    // URL RAW válida para GitHub Pages
+    const jsonURL = 'https://raw.githubusercontent.com/SandraFz/preciosMayoristas/main/db.json';
 
-      filter.addEventListener('change', () => {
-        const value = filter.value;
-        if (value === 'todos') {
-          renderProducts(data);
-        } else {
-          renderProducts(data.filter(p => p.categoria === value));
+    fetch(jsonURL)
+      .then(res => {
+        if (!res.ok) throw new Error(`Error al cargar JSON: ${res.status}`);
+        return res.json();
+      })
+      .then(data => {
+        function renderProducts(products) {
+          container.innerHTML = '';
+          products.forEach(product => {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            card.innerHTML = `
+              <img src="${product.image}" alt="${product.name}">
+              <h3>${product.name}</h3>
+              <p>Precio sugerido $${product.pricePublico}</p>
+            `;
+            card.onclick = () => {
+              localStorage.setItem('selectedProduct', JSON.stringify(product));
+              window.location.href = 'detail.html';
+            };
+            container.appendChild(card);
+          });
         }
-      });
 
-      renderProducts(data);
-    });
-}
+        filter.addEventListener('change', () => {
+          const value = filter.value;
+          if (value === 'todos') {
+            renderProducts(data);
+          } else {
+            renderProducts(data.filter(p => p.categoria === value));
+          }
+        });
+
+        renderProducts(data);
+      })
+      .catch(err => {
+        container.innerHTML = `<p class="error">No se pudo cargar los productos. Intenta más tarde.</p>`;
+        console.error(err);
+      });
+  }
+});
+
 
 // detail.html
 if (document.location.pathname.includes('detail.html')) {
